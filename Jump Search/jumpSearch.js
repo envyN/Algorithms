@@ -52,7 +52,7 @@ function recursiveJumpSearchArrayElement(arr, el) {
                 // console.log(arr.length - 1, i - stepSize, arr.slice(i - stepSize, arr.length));
                 const searchIndex = recursiveJumpSearchArrayElement(arr.slice(i - stepSize, arr.length), el);
                 return searchIndex > -1 ? i - stepSize + searchIndex : -1;
-            } else if (i >= arr.length && stepSize > 1) {
+            } else if (i >= arr.length && stepSize === 1) {
                 return -1;
             }
         }
@@ -60,7 +60,7 @@ function recursiveJumpSearchArrayElement(arr, el) {
     return -1;
 }
 
-const lastNumInArr = 10;
+const lastNumInArr = 10000000;
 const testArr1     = new Array(lastNumInArr).fill(1).map((n, i) => n + i);
 
 testNumbers = [
