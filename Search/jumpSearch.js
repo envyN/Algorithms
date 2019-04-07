@@ -74,12 +74,13 @@ testNumbers = [
 ];
 
 
+console.log('------------JUMP and LINEAR SEARCH------------');
 const start1 = Date.now();
 console.log(start1);
 testNumbers.forEach(t => console.log(t, jumpSearchArrayElement(testArr1, t)));
 console.log(Date.now(), Date.now() - start1, ' ms');
 
-console.log('-----------------Recursive-----------------');
+console.log('------------Recursive JUMP SEARCH------------');
 const start2 = Date.now();
 console.log(start2);
 testNumbers.forEach(t => console.log(t, recursiveJumpSearchArrayElement(testArr1, t)));
