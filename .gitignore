@@ -1,0 +1,21 @@
+documentation/
+coverage/
+reports/
+out-tsc/
+dist/
+dist-e2e/
+html-report/
+node_modules/
+**/*npm-debug.log.*
+**/*.map
+src/**/*.js
+npm-debug.log
+yarn-error.log
+.DS_Store
+.idea
+.idea/*
+**/.idea
+.idea/
+
+#If ng-i18n is used, it would create .metadata.json files which should not be included in vcs
+#/src/**/*.metadata.json
