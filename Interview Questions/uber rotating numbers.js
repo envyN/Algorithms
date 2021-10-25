@@ -7,24 +7,24 @@
 
  */
 const invertedIsNumber = {
-    1:1,
-    6:9,
-    8:8,
-    9:6,
-    0:0
+    1: 1,
+    6: 9,
+    8: 8,
+    9: 6,
+    0: 0
 };
-const invertibleNumbers = [1,6,9,8];
+const invertibleNumbers = [1, 6, 9, 8];
 const invertibleNumbersWithZero = [...invertibleNumbers, 0];
 
 const isMagicNumber = (input) => {
     const digits = `${input}`.split('');
-    for( let i = 0;i<digits.length; i++){
-        if(invertedIsNumber[+digits[i]] === undefined){
+    for (let i = 0; i < digits.length; i++) {
+        if (invertedIsNumber[+digits[i]] === undefined) {
             return false;
         }
     }
-    const reversedDigits = digits.map(d=>`${invertedIsNumber[+d]}`);
-    return reversedDigits.reverse().join('') ===`${input}`;
+    const reversedDigits = digits.map(d => `${invertedIsNumber[+d]}`);
+    return reversedDigits.reverse().join('') === `${input}`;
 }
 
 // console.log(isMagicNumber(88)); // true
@@ -36,34 +36,34 @@ const isMagicNumber = (input) => {
 
 /**Generate all numbers of length N with the property mentioned in the previous problem For n=2 [11,69,96,88]
  */
-const fillIndex = (indexToFill, endIndex, results, currentResult, isEvenDigits)=>{
+const fillIndex = (indexToFill, endIndex, results, currentResult, isEvenDigits) => {
     // console.log(indexToFill, endIndex)
-    if(indexToFill === endIndex){
+    if (indexToFill === endIndex) {
         // fill with second half of inverted numbers and exit
-        let tailEnd = currentResult.map(d=>`${invertedIsNumber[+d]}`).reverse();
-        if(isEvenDigits){
+        let tailEnd = currentResult.map(d => `${invertedIsNumber[+d]}`).reverse();
+        if (isEvenDigits) {
             results.push([...currentResult, ...tailEnd]);
         }
         return;
     }
     let looper;
-    if(indexToFill===0){
+    if (indexToFill === 0) {
         looper = invertibleNumbers;
-    }else{
+    } else {
         looper = invertibleNumbersWithZero;
     }
-    for(let i=0; i<looper.length;i++){
+    for (let i = 0; i < looper.length; i++) {
         let clonedResult = [...currentResult];
         clonedResult.push(looper[i]);
-        fillIndex(indexToFill+1, endIndex, results, clonedResult, isEvenDigits);
+        fillIndex(indexToFill + 1, endIndex, results, clonedResult, isEvenDigits);
     }
 };
-const generateMagicNumbers = (lengthOfDigits)=>{
-    const toBeFilled = lengthOfDigits %2 ===0?lengthOfDigits/2:(lengthOfDigits-1)/2;
+const generateMagicNumbers = (lengthOfDigits) => {
+    const toBeFilled = lengthOfDigits % 2 === 0 ? lengthOfDigits / 2 : (lengthOfDigits - 1) / 2;
     const results = [];
-    fillIndex(0, toBeFilled, results, [], lengthOfDigits %2 ===0);
+    fillIndex(0, toBeFilled, results, [], lengthOfDigits % 2 === 0);
     const resultMap = {};
-    results.map(r=>r.join('')).forEach(rn=>resultMap[rn] = true);
+    results.map(r => r.join('')).forEach(rn => resultMap[rn] = true);
     console.log(Object.keys(resultMap));
 }
 
