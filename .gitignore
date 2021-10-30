@@ -15,7 +15,8 @@ yarn-error.log
 .idea
 .idea/*
 **/.idea
-.idea/
+.idea
+build
 
 #If ng-i18n is used, it would create .metadata.json files which should not be included in vcs
 #/src/**/*.metadata.json
