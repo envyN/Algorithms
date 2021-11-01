@@ -1,4 +1,4 @@
-import './App.css';
+import './App.module.scss';
 import {AppBar, Box, IconButton, Menu, MenuItem, Toolbar, Typography} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
