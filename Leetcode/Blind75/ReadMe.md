@@ -1,7 +1,7 @@
-#Fully copied from 
+# Fully copied from 
 https://techinterviewhandbook.org/best-practice-questions/
 ___
-#Best Practice Questions
+# Best Practice Questions
 
 Practicing is the best way to prepare for coding interviews. Years ago, I curated a list of the most important 75 questions on LeetCode. Many other LeetCode questions are a mash of the techniques from these individual questions. I used this list in my last job hunt to only do the important questions.
 
@@ -14,7 +14,7 @@ When practicing, you are advised to treat it like a real coding interview and ch
 I've created a LeetCode list for the following questions (except the Premium ones). Feel free to use it to track your practice progress.
 Week 1 - Sequences​
 
-##In week 1, 
+## In week 1, 
 we will start off easy and do a mix of easy and medium questions on arrays and strings. Arrays and strings are the most common types of questions to be found in interviews; gaining familiarity with them will help in building strong fundamentals to better handle tougher questions.
 
     Two Sum
@@ -33,7 +33,7 @@ Optional​
     Maximum Product Subarray
     Search in Rotated Sorted Array
 
-##Week 2 - Data Structures​
+## Week 2 - Data Structures​
 
 The focus of week 2 is on linked lists, strings and matrix-based questions. The goal is to learn the common routines dealing with linked lists, traversing matrices and sequence analysis (arrays/strings) techniques such as sliding window.
 
@@ -49,7 +49,7 @@ The focus of week 2 is on linked lists, strings and matrix-based questions. The 
     Palindromic Substrings
     Pacific Atlantic Water Flow
 
-##Week 3 - Non-Linear Data Structures​
+## Week 3 - Non-Linear Data Structures​
 
 The focus of week 3 is on non-linear data structures like trees, graphs and heaps. You should be familiar with the various tree traversal (in-order, pre-order, post-order) algorithms and graph traversal algorithms such as breadth-first search and depth-first search. In my experience, using more advanced graph algorithms (Dijkstra's and Floyd-Warshall) is quite rare and usually not necessary.
 
@@ -70,7 +70,7 @@ Optional​
     Binary Tree Level Order Traversal
     Encode and Decode Strings (LeetCode Premium)
 
-##Week 4 - More Data Structures
+## Week 4 - More Data Structures
 
 Week 4 builds up on knowledge from previous weeks but questions are of increased difficulty. Expect to see such level of questions during interviews. You get more practice on more advanced data structures such as (but not exclusively limited to) heaps and tries.
 
@@ -93,7 +93,7 @@ Optional
     Graph Valid Tree (LeetCode Premium)
     Number of Connected Components in an Undirected Graph (LeetCode Premium)
 
-##Week 5 - Dynamic Programming
+## Week 5 - Dynamic Programming
 
 Week 5 focuses on Dynamic Programming (DP) questions. Personally as an interviewer, I'm not a fan of DP questions as they are not really applicable to practical scenarios and frankly if I were made to do the tough DP questions during my interviews I'd not have gotten the job. However, companies like Google still ask DP questions and if joining Google is your dream, DP is unavoidable.
 
@@ -112,7 +112,7 @@ Practically speaking the return of investment (ROI) on studying and practicing f
     Jump Game
     Word Break Problem
 
-##Dynamic programming course
+## Dynamic programming course
 
     Grokking the Dynamic Programming Patterns for Coding Interviews
 
