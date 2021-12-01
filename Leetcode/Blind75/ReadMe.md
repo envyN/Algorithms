@@ -20,7 +20,7 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 - [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [ ] Valid Parentheses
+- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [ ] Product of Array Except Self
 - [ ] Maximum Subarray
 - [x] 3Sum
