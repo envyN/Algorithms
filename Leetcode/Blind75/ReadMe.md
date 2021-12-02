@@ -23,8 +23,8 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [x] [**Product of Array Except Self**(Medium)](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [**Maximum Subarray**(Easy)](https://leetcode.com/problems/maximum-subarray/)
-- [x] 3Sum
-- [ ] Merge Intervals
+- [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] Group Anagrams
 
 Optional
