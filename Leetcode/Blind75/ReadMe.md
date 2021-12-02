@@ -21,7 +21,7 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [x] [*Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [x] [**Product of Array Except Self**](https://leetcode.com/problems/product-of-array-except-self/)
 - [ ] Maximum Subarray
 - [x] 3Sum
 - [ ] Merge Intervals
