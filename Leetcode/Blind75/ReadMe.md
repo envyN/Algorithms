@@ -22,7 +22,7 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [x] [**Product of Array Except Self**(Medium)](https://leetcode.com/problems/product-of-array-except-self/)
-- [ ] Maximum Subarray
+- [x] [**Maximum Subarray**(Easy)](https://leetcode.com/problems/maximum-subarray/)
 - [x] 3Sum
 - [ ] Merge Intervals
 - [ ] Group Anagrams
