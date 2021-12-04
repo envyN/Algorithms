@@ -29,7 +29,7 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 
 Optional
 
-- [ ] Maximum Product Subarray
+- [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] Search in Rotated Sorted Array
 
 ## Week 2 - Data Structures​
