@@ -30,7 +30,7 @@ we will start off easy and do a mix of easy and medium questions on arrays and s
 Optional
 
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] Search in Rotated Sorted Array
+- [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ## Week 2 - Data Structures​
 
