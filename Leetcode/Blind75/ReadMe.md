@@ -32,11 +32,11 @@ Optional
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
-## Week 2 - Data Structures​
+## Week 2 - Data Structures
 
 The focus of week 2 is on linked lists, strings and matrix-based questions. The goal is to learn the common routines dealing with linked lists, traversing matrices and sequence analysis (arrays/strings) techniques such as sliding window.
 
-- [ ] Reverse a Linked List
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [ ] Detect Cycle in a Linked List
 - [ ] Container With Most Water
 - [ ] Find Minimum in Rotated Sorted Array
@@ -48,7 +48,7 @@ The focus of week 2 is on linked lists, strings and matrix-based questions. The 
 - [ ] Palindromic Substrings
 - [ ] Pacific Atlantic Water Flow
 
-## Week 3 - Non-Linear Data Structures​
+## Week 3 - Non-Linear Data Structures
 
 The focus of week 3 is on non-linear data structures like trees, graphs and heaps. You should be familiar with the various tree traversal (in-order, pre-order, post-order) algorithms and graph traversal algorithms such as breadth-first search and depth-first search. In my experience, using more advanced graph algorithms (Dijkstra's and Floyd-Warshall) is quite rare and usually not necessary.
 
