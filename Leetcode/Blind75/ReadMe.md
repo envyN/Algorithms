@@ -37,7 +37,7 @@ Optional
 The focus of week 2 is on linked lists, strings and matrix-based questions. The goal is to learn the common routines dealing with linked lists, traversing matrices and sequence analysis (arrays/strings) techniques such as sliding window.
 
 - [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [ ] Detect Cycle in a Linked List
+- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [ ] Container With Most Water
 - [ ] Find Minimum in Rotated Sorted Array
 - [ ] Longest Repeating Character Replacement
