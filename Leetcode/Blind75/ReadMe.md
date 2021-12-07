@@ -39,7 +39,7 @@ The focus of week 2 is on linked lists, strings and matrix-based questions. The 
 - [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [**Container With Most Water**(Medium)](https://leetcode.com/problems/container-with-most-water/)
-- [ ] Find Minimum in Rotated Sorted Array
+- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] Longest Repeating Character Replacement
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Minimum Window Substring
