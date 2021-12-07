@@ -40,8 +40,8 @@ The focus of week 2 is on linked lists, strings and matrix-based questions. The 
 - [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [**Container With Most Water**(Medium)](https://leetcode.com/problems/container-with-most-water/)
 - [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [ ] Longest Repeating Character Replacement
-- [ ] Longest Substring Without Repeating Characters
+- [ ] [**Longest Repeating Character Replacement**(HARD)](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [ ] Minimum Window Substring
 - [ ] Number of Islands
 - [ ] Remove Nth Node From End Of List
